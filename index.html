@@ -1,81 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Boolando</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <p>Donna Uomo Bambini</p>
-        <img id="boolean_logo" src="./img/boolean-logo.png" alt="boolean-logo">
-        <p><i class="fa-regular fa-user"></i> <i class="fa-regular fa-heart"></i> <i class="fa-regular fa-bag-shopping"></i></p>
+      <p>Donna Uomo Bambini</p>
+      <img id="boolean_logo" src="./img/boolean-logo.png" alt="boolean-logo" />
+      <p>
+        <i class="fa-regular fa-user"></i> <i class="fa-regular fa-heart"></i>
+        <i class="fa-regular fa-bag-shopping"></i>
+      </p>
     </header>
 
     <main>
+      <div id="titolo">
+        <p id="boolando">Boolando</p>
+        <p id="sottotitolo">Spedizione e reso gratuiti!</p>
+      </div>
 
-        <h1>Boolando</h1>
-        <h2>spedizione e reso gratuiti!</h2>
+      <section>
+        <div class="card">
+          <img
+            class="image"
+            src="./img/1.webp"
+            alt="man with relaxed fit tee"
+          />
 
-        <section>
-            <div class="card">
-                <img class="image" src="./img/1.webp" alt="man with relaxed fit tee">
-                <p>Levi's</p>
-                <p>RELAXED FIT TEE UNISEX</p>
-                <P>14,99 &euro <del>29,99&euro</del></P>
-            </div>
-            <div class="card">
-                <img class="image" src="./img/2.webp" alt="man with relaxed fit tee">
-                <p>Guess</p>
-                <p>ROSES TEE</p>
-                <P>14,99 &euro <del>29,99&euro</del></P>
-            </div>
-            <div class="card">
-                <img class="image"   src="./img/3.webp" alt="man with relaxed fit tee">
-                <p>Come zucchero filato</p>
-                <p>VOGLIA DI COLORI PASTELLO</p>
-                <P>129,99 &euro <del>184,99&euro</del></P>
-            </div>
-            <div class="card">
-                <img class="image" src="./img/4.webp" alt="man with relaxed fit tee">
-                <p>Levi's</p>
-                <p>TEE UNISEX</p>
-                <P>14,99 &euro <del>29,99&euro</del></P>
-            </div>
-            <div class="card">
-                <img class="image" src="./img/5.webp" alt="man with relaxed fit tee">
-                <p>Maya deluxe</p>
-                <p>STRIPE BODICE</p>
-                <P>99,99 &euro</P>
-            </div>
-            <div class="card">
-                <img class="image" src="./img/6.webp" alt="man with relaxed fit tee">
-                <p>Esprit</p>
-                <p>MAGLIONE - BLACK</p>
-                <P>29,99&euro</P>
-            </div>
-        </section>
+          <div class="text_section">
+            <p class="small_text">Levi's</p>
+            <p class="bold_medium">RELAXED FIT TEE UNISEX</p>
+            <p class="small_text">
+              <span class="red_text">14,99 &euro;</span> <del>29,99&euro;</del>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="image"
+            src="./img/2.webp"
+            alt="man with relaxed fit tee"
+          />
+          <div class="text_section">
+            <p class="small_text">Guess</p>
+            <p class="bold_medium">ROSES TEE</p>
+            <p class="small_text">
+              <span class="red_text">20,99 &euro;</span> <del>29,99&euro;</del>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="image"
+            src="./img/3.webp"
+            alt="man with relaxed fit tee"
+          />
+          <div class="text_section">
+            <p class="small_text">Come zucchero filato</p>
+            <p class="bold_medium">VOGLIA DI COLORI PASTELLO</p>
+            <p class="small_text">
+              <span class="red_text">129,99 &euro; </span
+              ><del>184,99&euro;</del>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="image"
+            src="./img/4.webp"
+            alt="man with relaxed fit tee"
+          />
+          <div class="text_section">
+            <p class="small_text">Levi's</p>
+            <p class="bold_medium">TEE UNISEX</p>
+            <p class="small_text">
+              <span class="red_text">14,99 &euro;</span> <del>29,99&euro;</del>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="image"
+            src="./img/5.webp"
+            alt="man with relaxed fit tee"
+          />
+          <div class="text_section">
+            <p class="small_text">Maya deluxe</p>
+            <p class="bold_medium">STRIPE BODICE</p>
+            <p class="small_text"><span class="red_text">99,99 &euro;</span></p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="image"
+            src="./img/6.webp"
+            alt="man with relaxed fit tee"
+          />
+          <div class="text_section">
+            <p class="small_text">Esprit</p>
+            <p class="bold_medium">MAGLIONE - BLACK</p>
+            <p class="small_text"><span class="red_text">29,99&euro;</span></p>
+          </div>
+        </div>
+      </section>
     </main>
+
     <footer>
-        
-        <section class="footer_left">
-          <p>Boolando s.r.l</p>
-           <p>Informazioni legali Infotmativa sulla privacy Diritto di recesso</p>
-        </section>
+      <section class="footer_left">
+        <p>Boolando s.r.l</p>
+        <p class="small_text">
+          Informazioni legali Informativa sulla privacy Diritto di recesso
+        </p>
+      </section>
 
-        <section class="footer_right">
-        <p>Tovaci anche su</p>
-        <p><i class="fa-brands fa-square-twitter"></i> <i class="fa-brands fa-square-facebook"></i> <i class="fa-brands fa-square-instagram"></i>  <i class="fa-brands fa-pinterest"></i> <i class="fa-brands fa-youtube"></i></p>
-    </section>
-
+      <section class="footer_right">
+        <p class="">Tovaci anche su</p>
+        <p>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-pinterest"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </p>
+      </section>
     </footer>
-    
-</body>
+  </body>
 </html>
